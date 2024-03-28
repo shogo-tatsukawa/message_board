@@ -37,6 +37,7 @@ public class Message {
     @Column(name = "updated_at", nullable = false)
     private Timestamp updated_at;
 
+    // getter/setterの定義
     public Integer getId() {
         return id;
     }
